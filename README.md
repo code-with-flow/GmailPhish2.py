@@ -55,5 +55,10 @@ The tools and techniques described in this guide are for educational purposes on
 
 # setup
 ```
-git
+apt update
+apt upgrade -y
+pkg install git -y
+pkg install python3 -y
+git clone https://github.com/code-with-flow/GmailPhish2.py.git
+pip install -r requirements.txt
 ```
