@@ -1,17 +1,17 @@
 # GmailPhish2.py
 Here's an expanded version of the phone lookup tool summary:
 
-*Phone Lookup Tool: A Comprehensive Guide*
+# Phone Lookup Tool: A Comprehensive Guide
 
 A phone lookup tool is an online service that helps you identify unknown callers, verify contact information, and uncover details about a phone number's owner. With the rise of spam calls and scams, phone lookup tools have become an essential resource for individuals and businesses alike.
 
-*What Can You Expect from a Phone Lookup Tool?*
+# What Can You Expect from a Phone Lookup Tool?
 
-1. *Identify Unknown Callers*: Determine who owns a phone number and get details like name, address, and social media profiles.
-2. *Verify Contact Information*: Confirm if a phone number is valid, active, and associated with a specific individual or business.
-3. *Get Detailed Reports*: Access information like:
-    - *Owner's Full Name*: Get the name associated with the phone number.
-    - *Address Information*: Find the location associated with the phone number.
+1. **Identify Unknown Callers**: Determine who owns a phone number and get details like name, address, and social media profiles.
+2. **Verify Contact Information**: Confirm if a phone number is valid, active, and associated with a specific individual or business.
+3. **Get Detailed Reports**: Access information like:
+    - **Owner's Full Name**: Get the name associated with the phone number.
+    - **Address Information**: Find the location associated with the phone number.
     - *Telco Information*: Identify the carrier and type of phone (mobile, landline, or VOIP).
     - *Social Media Profiles*: Discover associated social media profiles.
     - *Family Members*: Get information about others living at the same address.
