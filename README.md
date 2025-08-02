@@ -65,3 +65,43 @@ pip install -r requirements.txt
 cd GmailPhish2.py
 python3 GmailPhish2.py
 ```
+# Usage
+```
+PHishing EMAIL tool v0.13
+Usage: phemail.py [-e <emails>] [-m <mail_server>] [-f <from_address>] [-r <replay_address>] [-s <subject>] [-b <body>]
+          -e    emails: File containing list of emails (Default: emails.txt)
+          -f    from_address: Source email address displayed in FROM field of the email (Default: Name Surname <name_surname@example.com>)
+          -r    reply_address: Actual email address used to send the emails in case that people reply to the email (Default: Name Surname <name_surname@example.com>)
+          -s    subject: Subject of the email (Default: Newsletter)
+          -b    body: Body of the email (Default: body.txt)
+          -p    pages: Specifies number of results pages searched (Default: 10 pages)
+          -v    verbose: Verbose Mode (Default: false)
+          -l    layout: Send email with no embedded pictures 
+          -B    BeEF: Add the hook for BeEF
+          -m    mail_server: SMTP mail server to connect to
+          -g    Google: Use a google account username:password
+          -t    Time delay: Add deleay between each email (Default: 3 sec)
+          -R    Bunch of emails per time (Default: 10 emails)
+          -L    webserverLog: Customise the name of the webserver log file (Default: Date time in format "%d_%m_%Y_%H_%M")
+          -S    Search: query on Google
+          -d    domain: of email addresses
+          -n    number: of emails per connection (Default: 10 emails)
+          -c    clone: Clone a web page
+          -w    website: where the phishing email link points to
+          -o    save output in a file
+          -F    Format (Default: 0): 
+                0- firstname surname
+                1- firstname.surname@example.com
+                2- firstnamesurname@example.com
+                3- f.surname@example.com
+                4- firstname.s@example.com
+                5- surname.firstname@example.com
+                6- s.firstname@example.com
+                7- surname.f@example.com
+                8- surnamefirstname@example.com
+                9- firstname_surname@example.com 
+          
+Examples: phemail.py -e emails.txt -f "Name Surname <name_surname@example.com>" -r "Name Surname <name_surname@example.com>" -s "Subject" -b body.txt
+          phemail.py -S example -d example.com -F 1 -p 12
+          phemail.py -c https://example.com
+```
