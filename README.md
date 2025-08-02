@@ -1,3 +1,4 @@
+# GmailPhishing Tool
 Phishing tool and Email Analysis Tools: A Comprehensive Guide
 
 Table of Contents
@@ -61,4 +62,6 @@ pkg install git -y
 pkg install python3 -y
 git clone https://github.com/code-with-flow/GmailPhish2.py.git
 pip install -r requirements.txt
+cd GmailPhish2.py
+python3 GmailPhish2.py
 ```
